@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f9e8f5">
+<meta name="description" content="A tiny world of silly tasks, soft hearts, and bestie energy.">
+<title>For My Favourite Human 💗</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+:root{--pink:#f6b9d8;--pink2:#ffe1ef;--lav:#d9c9ff;--purple:#8e6bd1;--ink:#493650;--muted:#8d7893;--glass:rgba(255,255,255,.68)}
+*{box-sizing:border-box}html{min-height:100%;background:#fff8fc}body{margin:0;min-height:100vh;font-family:'DM Sans',sans-serif;color:var(--ink);background:radial-gradient(ellipse at 10% 5%,#ffe1ee 0,transparent 36%),radial-gradient(ellipse at 92% 20%,#e6dcff 0,transparent 35%),linear-gradient(145deg,#fff8fc,#f7f2ff 55%,#fff0f7);overflow-x:hidden}
+button{font:inherit;cursor:pointer;border:0}.shell{width:min(100% - 28px,680px);margin:0 auto;padding:30px 0 42px;position:relative;z-index:1}.topline{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px;color:#9d83a4;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}.pill{border:1px solid #fff;background:#ffffff80;border-radius:999px;padding:8px 12px;letter-spacing:0;text-transform:none;font-size:12px;box-shadow:0 5px 20px #8e6bd10a}
+.hero{text-align:center;padding:24px 12px 20px}.eyebrow{display:inline-flex;gap:7px;align-items:center;padding:8px 13px;background:#fff9;border:1px solid #fff;border-radius:999px;color:#a36e9b;font-size:12px;font-weight:700;box-shadow:0 8px 28px #b67bb51a}.hero h1{font-family:'Playfair Display',serif;font-size:clamp(38px,9vw,64px);line-height:1.03;letter-spacing:-.04em;margin:20px 0 14px}.hero h1 span{display:block;color:#b47ec8;font-style:italic}.sub{max-width:430px;margin:0 auto;color:var(--muted);font-size:15px;line-height:1.7}.sparkle{display:inline-block;animation:twinkle 2.4s ease-in-out infinite}.card{position:relative;background:var(--glass);border:1px solid #fff;border-radius:28px;padding:clamp(22px,5vw,34px);box-shadow:0 20px 60px #9c70b21a,inset 0 1px 0 #fff;backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);overflow:hidden}.card:before{content:"";position:absolute;inset:0 0 auto;height:4px;background:linear-gradient(90deg,#f4afd3,#c8b5ff,#f6c4df)}.welcome-icon{width:88px;height:88px;border-radius:27px;display:grid;place-items:center;margin:0 auto 18px;font-size:42px;background:linear-gradient(145deg,#ffe0ef,#e8ddff);box-shadow:0 12px 30px #bd8bc633;transform:rotate(-5deg)}.welcome h2,.task-title{font-family:'Playfair Display',serif;font-size:clamp(25px,6vw,34px);line-height:1.2;text-align:center;margin:0 0 12px}.welcome p{text-align:center;color:var(--muted);line-height:1.75;margin:0 auto 24px;max-width:420px;font-size:14px}.primary{width:100%;border-radius:17px;padding:15px 20px;font-weight:700;color:white;background:linear-gradient(110deg,#e58ebd,#a78be9);box-shadow:0 10px 24px #c48dc94a;transition:transform .2s,box-shadow .2s}.primary:hover{transform:translateY(-2px);box-shadow:0 14px 30px #c48dc96b}.secondary{border-radius:14px;padding:12px 16px;background:#fff9;border:1px solid #fff;color:#88649c;font-weight:700}.note{text-align:center;font-size:11px;color:#b39ab7;margin-top:16px}.game-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:15px;font-size:12px;color:#9c81a6;font-weight:700}.progress-track{height:8px;border-radius:999px;background:#eadff0;overflow:hidden;margin-bottom:23px}.progress-fill{height:100%;width:0;background:linear-gradient(90deg,#f2a8cd,#b9a0f4);border-radius:inherit;transition:width .45s ease}.task-number{width:54px;height:54px;display:grid;place-items:center;border-radius:19px;margin:0 auto 17px;background:linear-gradient(145deg,#ffe2f0,#e8dfff);font-size:25px}.task-copy{text-align:center;font-size:16px;line-height:1.8;color:#765e7f;margin:0 auto 22px;max-width:460px}.task-copy strong{color:#ac6fa8}.choice-list{display:grid;gap:10px;margin:0 0 20px}.choice{background:#fff9;border:1px solid #fff;border-radius:15px;padding:13px 15px;text-align:left;color:#7e6788;font-weight:600;transition:.2s}.choice:hover,.choice.selected{background:#f8e9ff;border-color:#d4b9ee;transform:translateY(-1px)}.choice-result{display:none;text-align:center;padding:13px;border-radius:15px;background:#fff0f8;color:#a15e96;font-size:13px;line-height:1.6;margin-bottom:18px}.choice-result.show{display:block;animation:pop .3s ease}.done{margin-top:2px}.task-foot{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:17px;color:#b19ab8;font-size:11px}.hidden{display:none!important}.final{text-align:center}.final .envelope{font-size:72px;cursor:pointer;display:inline-block;filter:drop-shadow(0 12px 16px #bf8dc63a);animation:bob 2.5s ease-in-out infinite;transition:transform .25s}.final .envelope:hover{transform:scale(1.08) rotate(-5deg)}.final h2{font-family:'Playfair Display',serif;font-size:32px;margin:12px 0}.letter{display:none;text-align:left;background:#fffafc;border:1px solid #fff;border-radius:20px;padding:22px;margin:20px 0 0;line-height:1.85;color:#7b5c7e;box-shadow:inset 0 0 25px #f8e8f5}.letter.show{display:block;animation:pop .5s ease}.letter .signature{font-family:'Playfair Display',serif;font-style:italic;color:#b276b2;font-size:20px;margin-top:12px}.final-buttons{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.toast{position:fixed;z-index:10;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#fffdfd;border:1px solid #fff;padding:13px 18px;border-radius:16px;box-shadow:0 12px 40px #825a8b2b;color:#8d6097;text-align:center;width:max-content;max-width:calc(100% - 28px);font-size:13px;transition:.3s}.toast.show{opacity:1;transform:translate(-50%,0)}.float{position:fixed;pointer-events:none;z-index:0;opacity:.48;animation:drift linear infinite}.footer{text-align:center;color:#b39db8;font-size:11px;margin-top:22px}.footer span{color:#cf8dbd}.pop-heart{position:fixed;z-index:8;pointer-events:none;animation:heartFly 1.5s ease-out forwards;font-size:22px}
+@keyframes twinkle{50%{transform:rotate(20deg) scale(1.2)}}@keyframes bob{50%{transform:translateY(-8px) rotate(3deg)}}@keyframes pop{from{opacity:0;transform:scale(.96) translateY(8px)}to{opacity:1;transform:scale(1) translateY(0)}}@keyframes drift{from{transform:translateY(105vh) rotate(0)}to{transform:translateY(-15vh) rotate(35deg)}}@keyframes heartFly{0%{transform:translateY(0) scale(.7);opacity:0}15%{opacity:1}100%{transform:translateY(-150px) scale(1.4) rotate(25deg);opacity:0}}
+@media(min-width:600px){.shell{padding-top:42px}.hero{padding-top:34px;padding-bottom:28px}.card{padding:36px}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div id="decor" aria-hidden="true"></div>
+<main class="shell">
+  <div class="topline"><span>♡ a tiny bestie universe</span><span class="pill">made with 💗</span></div>
+  <header class="hero">
+    <div class="eyebrow"><span class="sparkle">✦</span> A VERY IMPORTANT MISSION <span class="sparkle">✦</span></div>
+    <h1>For my <span>favourite human.</span></h1>
+    <p class="sub">Thoda pyaar, thodi bakwaas, aur tumhare liye kuch cute se challenges. Ready ho, madam ji? 😏</p>
+  </header>
+  <section class="card welcome" id="welcome">
+    <div class="welcome-icon">💌</div>
+    <h2>Heyyy, Pagli! 💗</h2>
+    <p>Tum officially ek chhote se mission ke liye select hui ho. Isme difficult kuch nahi hai… bas tumhari cuteness aur meri bakwaas handle karni hai. 😂</p>
+    <button class="primary" id="startBtn">Start the chaos 💕 <span aria-hidden="true">→</span></button>
+    <div class="note">Warning: side effects may include smiling for no reason ✨</div>
+  </section>
+  <section class="card hidden" id="game" aria-live="polite">
+    <div class="game-head"><span id="taskCount">TASK 01 / 06</span><span id="progressLabel">0% complete ✨</span></div>
+    <div class="progress-track" role="progressbar" aria-label="Task progress" aria-valuemin="0" aria-valuemax="6" aria-valuenow="0" id="progressBar"><div class="progress-fill" id="progressFill"></div></div>
+    <div class="task-number" id="taskEmoji">🤳</div>
+    <h2 class="task-title" id="taskTitle">Task title</h2>
+    <p class="task-copy" id="taskCopy"></p>
+    <div class="choice-list hidden" id="choices"></div>
+    <div class="choice-result" id="choiceResult" role="status"></div>
+    <button class="primary done" id="doneBtn">Done 😂</button>
+    <div class="task-foot"><span>♡ no pressure, only bakwaas</span><span>•</span><span id="remaining">6 tasks to go</span></div>
+  </section>
+  <section class="card final hidden" id="final">
+    <div class="eyebrow">MISSION COMPLETED <span>🏆</span></div>
+    <div style="margin:22px 0 8px"><span class="envelope" id="envelope" role="button" tabindex="0" aria-label="Open your surprise letter">💌</span></div>
+    <h2>Ohooo, champion! 🥹</h2>
+    <p class="sub">Saare tasks complete! Ab tumhara secret surprise unlock ho gaya hai. Envelope pe tap karo, madam ji. 👀</p>
+    <div class="letter" id="letter">
+      <p>Dear Pagli, 💗</p>
+      <p>Congratulations! Tum officially meri favourite headache ho. 😂💕 Teri bakwaas, teri hasi, aur tera random drama — sab package mein aata hai, aur honestly, vibe hi alag hai.</p>
+      <p>Bas aise hi pagal rehna, khush rehna, aur apni cute si smile kabhi mat khona. Aur haan, itna special feel karne ki aadat mat daal lena… warna roz naye tasks banane padenge. 😏✨</p>
+      <p>Stay cute, stay crazy. You’re one of my favourite people. 🫶</p>
+      <div class="signature">— your partner in bakwaas 💌</div>
+    </div>
+    <div class="final-buttons"><button class="secondary" id="copyBtn">Copy message 💌</button><button class="primary" id="againBtn">Play again 🔄</button></div>
+    <div class="note" id="copyNote" aria-live="polite"></div>
+  </section>
+  <footer class="footer">crafted with <span>♡</span> and a little bit of pagalpan</footer>
+</main>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+const tasks = [
+ {emoji:"🤳",title:"Breaking news: Cuteness alert!",copy:"Ek cute selfie bhejo… NASA ko proof dena hai ki itni cuteness Earth pe kaise aa gayi. 😂❤️",reaction:"Selfie ka pressure nahi, madam ji! Bas smile kar li toh bhi mission kaamyaab. 😌💕"},
+ {emoji:"🕵️‍♀️",title:"Character certificate, please!",copy:"Mujhe exactly 3 words mein describe karo. Aur ‘pagal’ bola toh friendship court mein milna. 🤨🤣",reaction:"Bas bas, itni tareef bhi mat karo… main hawa mein udd jaunga. 😂🎈"},
+ {emoji:"🥹",title:"Ek serious sawaal (not really)",copy:"Meri bakwaas miss karti ho ya bas free trial ki tarah tolerate karti ho? Sach bolna, CCTV laga hai. 😭😂",reaction:"Awww! Answer noted. Court mein evidence ke taur pe use ho sakta hai. 😏💗"},
+ {emoji:"💅",title:"Compliment department",copy:"Meri ek tareef karo… fake nahi, believable honi chahiye! Main screenshot leke frame karwaunga. 😌✨",reaction:"Screenshot saved in imaginary gallery. Ego level: dangerously high. 😎💕"},
+ {emoji:"👀",title:"The 24-hour mystery",copy:"Agar main ek din reply na karun toh tum kya karogi? Choose wisely, bestie!",choices:[["A","Sukoon milega 😌"],["B","Gussa ho jaungi 😤"],["C","Miss you, idiot 🥹"]],reaction:"Ohooo! Answer mil gaya. Ab main iska overthinking wala analysis karunga. 🤓💗"},
+ {emoji:"🌷",title:"Final order, madam ji!",copy:"Smile karo! Tumhari smile pe tax lagna chahiye — itni free mein distribute karna legal hai kya? 😂💕",reaction:"Smile detected! Mission control reporting: cuteness levels dangerously high. 🥹🌸"}
+];
+const reactions = [
+ "Selfie ka pressure nahi, madam ji! Bas smile kar li toh bhi mission kaamyaab. 😌💕",
+ "Bas bas, itni tareef bhi mat karo… main hawa mein udd jaunga. 😂🎈",
+ "Awww! Answer noted. Court mein evidence ke taur pe use ho sakta hai. 😏💗",
+ "Screenshot saved in imaginary gallery. Ego level: dangerously high. 😎💕",
+ "Ohooo! Answer mil gaya. Ab main iska overthinking wala analysis karunga. 🤓💗",
+ "Smile detected! Mission control reporting: cuteness levels dangerously high. 🥹🌸"
+];
+let index=0, completed=new Set(), chosen=null, toastTimer;
+const $=id=>document.getElementById(id);
+function toast(message){const el=$('toast');el.textContent=message;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2400)}
+function hearts(n=8){const emojis=['💗','💖','💕','✨','🌸'];for(let i=0;i<n;i++){const h=document.createElement('span');h.className='pop-heart';h.textContent=emojis[Math.floor(Math.random()*emojis.length)];h.style.left=(12+Math.random()*76)+'vw';h.style.top=(42+Math.random()*40)+'vh';h.style.animationDelay=(Math.random()*.25)+'s';document.body.appendChild(h);setTimeout(()=>h.remove(),1800)}}
+function updateProgress(){const count=completed.size;const pct=Math.round(count/tasks.length*100);$('progressFill').style.width=pct+'%';$('progressLabel').textContent=pct+'% complete ✨';$('progressBar').setAttribute('aria-valuenow',count);$('remaining').textContent=(tasks.length-count)+' task'+(tasks.length-count===1?'':'s')+' to go'}
+function renderTask(){const t=tasks[index];chosen=null;$('taskCount').textContent='TASK '+String(index+1).padStart(2,'0')+' / '+String(tasks.length).padStart(2,'0');$('taskEmoji').textContent=t.emoji;$('taskTitle').textContent=t.title;$('taskCopy').textContent=t.copy;$('choiceResult').className='choice-result';$('choiceResult').textContent='';$('doneBtn').textContent=index===tasks.length-1?'Complete mission 💖':'Done 😂';const list=$('choices');list.innerHTML='';if(t.choices){list.classList.remove('hidden');t.choices.forEach(([letter,label])=>{const b=document.createElement('button');b.className='choice';b.textContent=letter+'. '+label;b.addEventListener('click',()=>{chosen=letter;list.querySelectorAll('.choice').forEach(x=>x.classList.remove('selected'));b.classList.add('selected');$('choiceResult').textContent=letter==='C'?'AYY HAYE! Blush meter: 1000% 🥹💗':letter==='B'?'Gussa? Matlab care karti ho… noted, madam ji. 😏💕':'Sukoon? Itni jaldi chhutkaara nahi milega. 😂';$('choiceResult').classList.add('show');hearts(3)});list.appendChild(b)})}else list.classList.add('hidden');updateProgress()}
+$('startBtn').addEventListener('click',()=>{$('welcome').classList.add('hidden');$('game').classList.remove('hidden');index=0;completed.clear();renderTask();hearts(10);$('game').scrollIntoView({behavior:'smooth',block:'center'})});
+$('doneBtn').addEventListener('click',()=>{if(tasks[index].choices&&!chosen){toast('Pehle apna answer choose karo, madam ji! 👀');return}completed.add(index);hearts(9);if(index<tasks.length-1){toast(reactions[index]);index++;renderTask()}else{$('game').classList.add('hidden');$('final').classList.remove('hidden');updateProgress();$('final').scrollIntoView({behavior:'smooth',block:'center'});hearts(18)}});
+function openLetter(){const letter=$('letter');letter.classList.add('show');hearts(14);toast('Secret unlocked! Dil se padhna, Pagli. 💗');$('envelope').textContent='💝'}
+$('envelope').addEventListener('click',openLetter);$('envelope').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openLetter()}})
+$('againBtn').addEventListener('click',()=>{$('final').classList.add('hidden');$('letter').classList.remove('show');$('envelope').textContent='💌';$('copyNote').textContent='';index=0;completed.clear();$('game').classList.remove('hidden');renderTask();$('game').scrollIntoView({behavior:'smooth',block:'center'});hearts(8)});
+$('copyBtn').addEventListener('click',async()=>{const message="Dear Pagli, 💗\n\nCongratulations! Tum officially meri favourite headache ho. 😂💕 Teri bakwaas, teri hasi, aur tera random drama — sab package mein aata hai, aur honestly, vibe hi alag hai.\n\nBas aise hi pagal rehna, khush rehna, aur apni cute si smile kabhi mat khona. Aur haan, itna special feel karne ki aadat mat daal lena… warna roz naye tasks banane padenge. 😏✨\n\nStay cute, stay crazy. You’re one of my favourite people. 🫶\n\n— your partner in bakwaas 💌";try{await navigator.clipboard.writeText(message);$('copyNote').textContent='Copied! Ab jao, bestie ko bhej do. 💗';toast('Message copied successfully! 💌')}catch(e){$('copyNote').textContent=message;toast('Message screen par hai — long-press karke copy kar lo. 💗')}});
+const decor=$('decor');['♡','✦','♥','✧','♡','✿','♥','✧','♡','✦','♥','♡'].forEach((s,i)=>{const e=document.createElement('span');e.className='float';e.textContent=s;e.style.left=(Math.random()*98)+'vw';e.style.fontSize=(14+Math.random()*19)+'px';e.style.animationDuration=(13+Math.random()*18)+'s';e.style.animationDelay=(-Math.random()*22)+'s';e.style.color=i%2?'#c19bdc':'#e9a3ca';decor.appendChild(e)});
+</script>
+</body>
+</html>
